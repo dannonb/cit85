@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap" rel="stylesheet">
+    <style>
+        .container {
+            display: flex;
+            
+
+        }
+
+        h1 {
+            border: 2px solid black;
+            box-shadow: 2px 2px #525EAE;
+            font-family: 'Odibee Sans', cursive;
+            text-align: center;
+
+        }
+
+        .main {
+            width: 100px;
+            height: 50px;
+            background-color: blueviolet;
+            border: 2px solid black;
+            animation-name: main;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            position: relative;
+            margin: auto;
+            text-align: center;
+            justify-content: center;
+            box-shadow: 5px 5px #525EAE;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+            height: 50%;
+            text-align: center;
+            justify-content: center;
+            margin: 0 auto;
+            
+        }
+
+        @keyframes main {
+            0% {top: 0vh; background-color: black;}
+            10% {top: 10vh; background-color: red} 
+            20% {top: 20vh; background-color: green} 
+            30% {top: 30vh; background-color: pink}
+            40% {top: 40vh; background-color: purple}
+            50% {top: 50vh; background-color: blue}
+            60% {top: 60vh; background-color: greenyellow}
+            70% {top: 70vh; background-color: orange}
+            80% {top: 80vh; background-color: olive}
+            90% {top: 90vh; background-color: salmon}
+            100% {top: 100vh}
+
+        }
+    </style>
+</head>
+<body>
+    <h1>My Site</h1>
+
+    <div class="container"> 
+        
+       
+        <a href="about.html">
+        <div class="main">
+            <p>Hey, click me!</p>
+        </div>
+        </a>
+    </div>
+</body>
+</html>
